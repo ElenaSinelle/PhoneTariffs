@@ -1,0 +1,8 @@
+@import "../../commonStyles/variables.scss";
+
+.title {
+  background-color: $themeGreen;
+}
+.tariff {
+  background-color: transparentize($themeGreen, 0.4);
+}

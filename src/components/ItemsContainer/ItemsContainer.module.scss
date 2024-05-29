@@ -1,0 +1,9 @@
+.itemsContainer {
+  padding: 6rem 4rem;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 0.5rem;
+  justify-content: stretch;
+}

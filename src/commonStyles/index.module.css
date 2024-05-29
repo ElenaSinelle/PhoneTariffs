@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Bellota";
+  src: url(../fonts/BellotaText-Regular.ttf);
+  src: url(../fonts/BellotaText-Regular.eot) format("embedded-opentype"), url(../fonts/BellotaText-Regular.woff2) format("woff2"), url(../fonts/BellotaText-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: normal normal 20px/24px Bellota, sans-serif;
+  color: rgb(104, 104, 105);
+  background-color: rgb(232, 233, 235);
+}
