@@ -1,11 +1,11 @@
 import styles from "./Item.module.scss";
 
-export default function Item({ id, title, tariff, traffic }) {
+export default function Item({ id, title, tariff, traffic, theme }) {
   return (
     <div className={styles.item} id={id}>
-      <div className={styles.title}>{title}</div>
+      <div className={`${styles.title} ${theme.title}`}>{title}</div>
 
-      <div className={styles.tariff}>
+      <div className={`${styles.tariff} ${theme.tariff}`}>
         <span className={styles.sub}>руб</span>
         {tariff}
         <span className={styles.sup}>/мес</span>
