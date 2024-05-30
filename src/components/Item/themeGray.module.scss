@@ -1,8 +1,16 @@
 @import "../../commonStyles/variables.scss";
 
 .title {
-  background-color: $themeGray;
+  background-color: transparentize($themeGray, 0.4);
+  color: $mainBgColor;
 }
 .tariff {
-  background-color: transparentize($themeGray, 0.4);
+  background-color: $themeGray;
+  color: $mainBgColor;
+}
+.traffic {
+  background-color: transparentize($themeGray, 0.8);
+}
+.itemFooter {
+  background-color: transparentize($themeGray, 0.95);
 }

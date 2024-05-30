@@ -1,9 +1,11 @@
 $mainFontColor: rgb(104, 104, 105);
 $mainBgColor: rgb(232, 233, 235);
-$itemBgColor: rgb(181, 184, 192);
+$itemBgColor: rgb(225, 226, 228);
 
 //themes
-$themeBlue: rgba(95, 188, 246, 1);
-$themeGreen: rgba(95, 246, 110, 1);
-$themePink: rgba(237, 122, 222, 1);
+$themeBlue: rgb(59, 174, 245);
+$themeGreen: rgb(62, 238, 80);
+$themePink: rgb(251, 91, 229);
 $themeGray: rgba(71, 69, 70, 1);
+
+$transition: all ease 0.5s;

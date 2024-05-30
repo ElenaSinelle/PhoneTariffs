@@ -6,14 +6,18 @@ export default function Item({ id, title, tariff, traffic, theme }) {
       <div className={`${styles.title} ${theme.title}`}>{title}</div>
 
       <div className={`${styles.tariff} ${theme.tariff}`}>
-        <span className={styles.sub}>руб</span>
-        {tariff}
-        <span className={styles.sup}>/мес</span>
+        <div className={styles.tariffContainer}>
+          <span className={styles.sub}>руб</span>
+          {tariff}
+          <span className={styles.sup}>/мес</span>
+        </div>
       </div>
 
-      <div className={styles.traffic}>до {traffic} Мбит/сек</div>
+      <div className={`${styles.traffic} ${theme.traffic}`}>
+        до {traffic} Мбит/сек
+      </div>
 
-      <div className={styles.itemFooter}>
+      <div className={`${styles.itemFooter} ${theme.itemFooter}`}>
         <p>Объём включённого</p>
         <p>трафика не ограничен</p>
       </div>
