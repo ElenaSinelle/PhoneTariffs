@@ -1,0 +1,4 @@
+@import "../../commonStyles/variables.scss";
+@import "../../commonStyles/mixins.scss";
+
+@include theme($themeGray);

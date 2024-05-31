@@ -14,33 +14,33 @@
     transform: scale(1.05);
     box-shadow: 0px 0px 10px $mainFontColor;
   }
-}
-.title {
-  @include flexContainer;
-  font-size: 2rem;
-}
-.tariff {
-  @include flexContainer;
-  font-size: 3.5rem;
-}
-.tariffContainer {
-  @include flexContainer;
-  height: max-content;
-}
-.sub {
-  font-size: 1rem;
-  align-self: flex-start;
-}
-.sup {
-  font-size: 1rem;
-  align-self: flex-end;
-}
-.traffic {
-  @include flexContainer;
-  font-weight: bolder;
-}
-.itemFooter {
-  @include flexContainer;
-  flex-direction: column;
-  font-weight: lighter;
+  .title {
+    @include flexContainer;
+    font-size: 2rem;
+  }
+  .tariff {
+    @include flexContainer;
+    font-size: 3.5rem;
+    &Container {
+      @include flexContainer;
+      height: max-content;
+      .sub {
+        font-size: 1rem;
+        align-self: flex-start;
+      }
+      .sup {
+        font-size: 1rem;
+        align-self: flex-end;
+      }
+    }
+  }
+  .traffic {
+    @include flexContainer;
+    font-weight: bolder;
+  }
+  .itemFooter {
+    @include flexContainer;
+    flex-direction: column;
+    font-weight: lighter;
+  }
 }

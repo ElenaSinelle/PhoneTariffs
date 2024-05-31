@@ -2,10 +2,10 @@ import { items } from "../../items";
 import styles from "./ItemsContainer.module.scss";
 import Item from "../Item/Item";
 
-import themeBlue from "../Item/themeBlue.module.scss";
-import themeGreen from "../Item/themeGreen.module.scss";
-import themePink from "../Item/themePink.module.scss";
-import themeGray from "../Item/themeGray.module.scss";
+import themeBlue from "../../commonStyles/themes/themeBlue.module.scss";
+import themeGreen from "../../commonStyles/themes/themeGreen.module.scss";
+import themePink from "../../commonStyles/themes/themePink.module.scss";
+import themeGray from "../../commonStyles/themes/themeGray.module.scss";
 
 const themes = [themeBlue, themeGreen, themePink, themeGray];
 
