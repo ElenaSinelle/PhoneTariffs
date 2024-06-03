@@ -10,10 +10,12 @@
   text-align: center;
   cursor: pointer;
   transition: $transition;
-  &:hover {
+
+  &__selected {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px $mainFontColor;
   }
+
   .title {
     @include flexContainer;
     font-size: 2rem;
