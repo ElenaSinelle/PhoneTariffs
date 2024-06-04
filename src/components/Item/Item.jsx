@@ -1,19 +1,23 @@
-import { useState } from "react";
-import styles from "./Item.module.scss";
+import styles from "../styles.module.scss";
 
-export default function Item({ id, title, tariff, traffic, theme }) {
-  const [selected, setSelected] = useState(false);
-
-  const handleSelectedState = () => {
-    setSelected(!selected);
-  };
+export default function Item({
+  id,
+  title,
+  tariff,
+  traffic,
+  theme,
+  isSelected,
+  onClick,
+}) {
   return (
     <div
       className={
-        selected ? `${styles.item} ${styles.item__selected}` : `${styles.item}`
+        isSelected
+          ? `${styles.item} ${styles.item__selected}`
+          : `${styles.item}`
       }
       id={id}
-      onClick={handleSelectedState}
+      onClick={onClick}
     >
       <div className={`${styles.title} ${theme.title}`}>{title}</div>
 

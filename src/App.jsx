@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./App.module.scss";
-import ItemsContainer from "../ItemsContainer/ItemsContainer";
+import styles from "./commonStyles/App.module.scss";
+import ItemsContainer from "./components/ItemsContainer/ItemsContainer";
 
 function App() {
   return (

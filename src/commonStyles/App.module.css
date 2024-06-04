@@ -15,3 +15,13 @@ body {
   color: rgb(104, 104, 105);
   background-color: rgb(232, 233, 235);
 }
+
+.appContainer {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+@media screen and (max-width: 750px) {
+  .appContainer {
+    min-height: unset;
+  }
+}

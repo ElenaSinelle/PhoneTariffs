@@ -11,3 +11,12 @@ body {
   color: $mainFontColor;
   background-color: $mainBgColor;
 }
+
+.appContainer {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  @media screen and (max-width: 750px) {
+    min-height: unset;
+  }
+}
