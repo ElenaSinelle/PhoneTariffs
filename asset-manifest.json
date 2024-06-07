@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/PhoneTariffs/static/css/main.91c3548e.css",
-    "main.js": "/PhoneTariffs/static/js/main.6733e380.js",
+    "main.css": "/PhoneTariffs/static/css/main.ba828862.css",
+    "main.js": "/PhoneTariffs/static/js/main.22cbaf09.js",
     "static/media/BellotaText-Regular.eot": "/PhoneTariffs/static/media/BellotaText-Regular.41a37e336dc83f3bc7ad.eot",
     "static/media/BellotaText-Regular.ttf": "/PhoneTariffs/static/media/BellotaText-Regular.53253e36d93a74b3fd96.ttf",
     "static/media/BellotaText-Regular.woff": "/PhoneTariffs/static/media/BellotaText-Regular.8238e0503e07b77cebf6.woff",
     "static/media/BellotaText-Regular.woff2": "/PhoneTariffs/static/media/BellotaText-Regular.2b1f9ff082462d902044.woff2",
+    "static/media/selection.svg": "/PhoneTariffs/static/media/selection.a595f91cbcbc4ef125eefba2010d4ca1.svg",
     "index.html": "/PhoneTariffs/index.html",
-    "main.91c3548e.css.map": "/PhoneTariffs/static/css/main.91c3548e.css.map",
-    "main.6733e380.js.map": "/PhoneTariffs/static/js/main.6733e380.js.map"
+    "main.ba828862.css.map": "/PhoneTariffs/static/css/main.ba828862.css.map",
+    "main.22cbaf09.js.map": "/PhoneTariffs/static/js/main.22cbaf09.js.map"
   },
   "entrypoints": [
-    "static/css/main.91c3548e.css",
-    "static/js/main.6733e380.js"
+    "static/css/main.ba828862.css",
+    "static/js/main.22cbaf09.js"
   ]
 }
