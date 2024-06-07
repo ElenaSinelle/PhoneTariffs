@@ -29,6 +29,7 @@
 
 .item {
   background-color: rgb(225, 226, 228);
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 2fr 0.8fr 1fr;
@@ -41,6 +42,29 @@
 .item__selected {
   transform: scale(1.05);
   box-shadow: 0px 0px 15px rgb(104, 104, 105);
+}
+.item__selectImg {
+  position: absolute;
+  top: 8.5rem;
+  right: 1rem;
+  width: 3.5rem;
+  height: auto;
+}
+@media screen and (max-width: 1040px) {
+  .item__selectImg {
+    top: 6rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .item__selectImg {
+    top: 5rem;
+    width: 2.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .item__selectImg {
+    top: 6.5rem;
+  }
 }
 .item .title {
   display: flex;

@@ -27,7 +27,7 @@ export default function ItemsContainer() {
         traffic={item.traffic}
         theme={themes[index]}
         isSelected={item.id === selectedItemId}
-        onClick={() => handleItemClick(item.id)}
+        handleItemClick={() => handleItemClick(item.id)}
       />
     ));
   };

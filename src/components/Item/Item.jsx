@@ -1,4 +1,5 @@
 import styles from "../styles.module.scss";
+import selectImg from "../../images/selection.svg";
 
 export default function Item({
   id,
@@ -7,7 +8,7 @@ export default function Item({
   traffic,
   theme,
   isSelected,
-  onClick,
+  handleItemClick,
 }) {
   return (
     <div
@@ -17,8 +18,16 @@ export default function Item({
           : `${styles.item}`
       }
       id={id}
-      onClick={onClick}
+      onClick={handleItemClick}
     >
+      {isSelected ? (
+        <div className={styles.item__selectImg}>
+          <img src={selectImg} alt={selectImg} />
+        </div>
+      ) : (
+        ""
+      )}
+
       <div className={`${styles.title} ${theme.title}`}>{title}</div>
 
       <div className={`${styles.tariff} ${theme.tariff}`}>
